@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HookApp } from "./HookApp";
+import { CounterApp } from "./components/useState/CounterApp";
+// import { HookApp } from "./HookApp";
 
-ReactDOM.render(<HookApp />, document.getElementById("root"));
+ReactDOM.render(<CounterApp />, document.getElementById("root"));
