@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CallBackHook } from "./components/06-memos/CallBackHook";
+import { Padre } from "./components/07-tarea-memo/Padre";
+// import { CallBackHook } from "./components/06-memos/CallBackHook";
 // import { MemoHook } from "./components/06-memos/MemoHook";
 // import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
 // import { FocusScreen } from "./components/04-useRef/FocusScreen";
@@ -13,4 +14,4 @@ import { CallBackHook } from "./components/06-memos/CallBackHook";
 // import { CounterWithCustomHook } from "./components/01-useState/CounterWithCustomHook";
 // import { HookApp } from "./HookApp";
 
-ReactDOM.render(<CallBackHook />, document.getElementById("root"));
+ReactDOM.render(<Padre />, document.getElementById("root"));
