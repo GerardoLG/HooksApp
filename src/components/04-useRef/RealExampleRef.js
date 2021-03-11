@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../useEffect/effect.css";
-import { MultipleCustomHooks } from "../examples/MultipleCustomHooks";
+import "../02-useEffect/effect.css";
+import { MultipleCustomHooks } from "../03-examples/MultipleCustomHooks";
 
 export const RealExampleRef = () => {
   const [show, setShow] = useState(false);
