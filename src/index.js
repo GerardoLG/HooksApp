@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { MemoHook } from "./components/06-memos/MemoHook";
+import { CallBackHook } from "./components/06-memos/CallBackHook";
+// import { MemoHook } from "./components/06-memos/MemoHook";
 // import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
 // import { FocusScreen } from "./components/04-useRef/FocusScreen";
 // import { RealExampleRef } from "./components/04-useRef/RealExampleRef";
@@ -12,4 +13,4 @@ import { MemoHook } from "./components/06-memos/MemoHook";
 // import { CounterWithCustomHook } from "./components/01-useState/CounterWithCustomHook";
 // import { HookApp } from "./HookApp";
 
-ReactDOM.render(<MemoHook />, document.getElementById("root"));
+ReactDOM.render(<CallBackHook />, document.getElementById("root"));
